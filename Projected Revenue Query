@@ -1,0 +1,3 @@
+SELECT id, listing_url, name, 30 - availability_30 AS booked_out_30, price, price * (30 - availability_30) AS proj_rev_30
+FROM fgfgfgf.listings
+ORDER BY proj_rev_30;
